@@ -1,4 +1,4 @@
-import {TextField} from "@mui/material"
+import {Button, TextField} from "@mui/material"
 
 function Form() {
   return (
@@ -9,6 +9,8 @@ function Form() {
             <TextField name="email" type="email" placeholder="email" variant="outlined"/>
             <br />
             <TextField name="password" type="password" placeholder="password" variant="outlined"/>
+            <br />
+            <Button variant="outlined">submit</Button>
         </form>
     </>
   )
