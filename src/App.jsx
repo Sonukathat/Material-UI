@@ -14,6 +14,7 @@ import Menu from '@mui/material/Menu';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import { TextField } from '@mui/material';
+import Form from './Form';
 
 export default function App() {
   const [auth, setAuth] = React.useState(true);
@@ -100,9 +101,7 @@ export default function App() {
       <Button>Two</Button>
       <Button>Three</Button>
     </ButtonGroup>
-    <TextField type='text' variant='standard' placeholder='name' sx={{margin:"30px"}}/>
-    <TextField type='text' variant='outlined' placeholder='name' sx={{margin:"30px"}}/>
-    <TextField type='text' variant='filled' placeholder='name' sx={{margin:"30px"}}/>
+    <Form/>
     </>
   );
 }
