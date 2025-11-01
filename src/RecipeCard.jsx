@@ -40,11 +40,11 @@ export default function RecipeCard() {
         avatar={<Avatar sx={{ bgcolor: red[500] }}>R</Avatar>}
         action={<IconButton><MoreVertIcon /></IconButton>}
         title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        subheader="September 14, 2025"
       />
       <CardMedia
         component="img"
-        height="194"
+        height="190"
         image="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg"
         alt="Paella dish"
       />
