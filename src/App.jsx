@@ -11,6 +11,8 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import FormGroup from '@mui/material/FormGroup';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
 
 export default function App() {
   const [auth, setAuth] = React.useState(true);
@@ -29,6 +31,7 @@ export default function App() {
   };
 
   return (
+    <>
     <Box sx={{ flexGrow: 1 }}>
       <FormGroup>
         <FormControlLabel
@@ -91,5 +94,11 @@ export default function App() {
         </Toolbar>
       </AppBar>
     </Box>
+     <ButtonGroup variant="contained" aria-label="Basic button group">
+      <Button>One</Button>
+      <Button>Two</Button>
+      <Button>Three</Button>
+    </ButtonGroup>
+    </>
   );
 }
