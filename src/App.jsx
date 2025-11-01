@@ -15,6 +15,7 @@ import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import { TextField } from '@mui/material';
 import Form from './Form';
+import Card from './RecipeCard';
 
 export default function App() {
   const [auth, setAuth] = React.useState(true);
@@ -102,6 +103,7 @@ export default function App() {
       <Button>Three</Button>
     </ButtonGroup>
     <Form/>
+    <Card/>
     </>
   );
 }
